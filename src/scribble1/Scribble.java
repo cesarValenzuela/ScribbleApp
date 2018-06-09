@@ -44,5 +44,6 @@ public class Scribble extends JFrame {
         // place the application frame at the center of the screen
         frame.setLocation(screenSize.width/2 - width/2, screenSize.height/2 - height/2);
         frame.setVisible(true);
+        System.out.println("git check message");
     }
 }
